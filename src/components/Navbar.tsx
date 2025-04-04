@@ -31,22 +31,21 @@ const Navbar = () => {
         {/* Logo */}
         <div className="flex items-center">
           <Heart className="h-6 w-6 text-medical-blue mr-2" />
-          <span className="text-xl font-bold text-medical-blue">VitalCare</span>
+          <span className="text-xl font-bold text-medical-blue">Cuidado</span>
         </div>
 
         {/* Desktop Navigation */}
         <nav className="hidden md:flex space-x-8">
-          <a href="#home" className="text-gray-800 hover:text-medical-blue font-medium">Home</a>
-          <a href="#services" className="text-gray-800 hover:text-medical-blue font-medium">Services</a>
-          <a href="#doctors" className="text-gray-800 hover:text-medical-blue font-medium">Our Doctors</a>
-          <a href="#testimonials" className="text-gray-800 hover:text-medical-blue font-medium">Testimonials</a>
-          <a href="#contact" className="text-gray-800 hover:text-medical-blue font-medium">Contact</a>
+          <a href="#home" className="text-gray-800 hover:text-medical-blue font-medium">Inicio</a>
+          <a href="#services" className="text-gray-800 hover:text-medical-blue font-medium">Servicios</a>
+          <a href="#testimonials" className="text-gray-800 hover:text-medical-blue font-medium">Testimonios</a>
+          <a href="#contact" className="text-gray-800 hover:text-medical-blue font-medium">Contacto</a>
         </nav>
 
         {/* Appointment button */}
         <div className="hidden md:block">
           <Button className="bg-medical-blue hover:bg-blue-700 text-white">
-            Book Appointment
+            Agenda una cita
           </Button>
         </div>
 
@@ -75,13 +74,12 @@ const Navbar = () => {
       {mobileMenuOpen && (
         <div className="md:hidden bg-white shadow-lg">
           <div className="container mx-auto px-4 py-4 flex flex-col space-y-4">
-            <a href="#home" className="text-gray-800 hover:text-medical-blue font-medium">Home</a>
-            <a href="#services" className="text-gray-800 hover:text-medical-blue font-medium">Services</a>
-            <a href="#doctors" className="text-gray-800 hover:text-medical-blue font-medium">Our Doctors</a>
-            <a href="#testimonials" className="text-gray-800 hover:text-medical-blue font-medium">Testimonials</a>
-            <a href="#contact" className="text-gray-800 hover:text-medical-blue font-medium">Contact</a>
+            <a href="#home" className="text-gray-800 hover:text-medical-blue font-medium">Inicio</a>
+            <a href="#services" className="text-gray-800 hover:text-medical-blue font-medium">Servicios</a>
+            <a href="#testimonials" className="text-gray-800 hover:text-medical-blue font-medium">Testimonios</a>
+            <a href="#contact" className="text-gray-800 hover:text-medical-blue font-medium">Contacto</a>
             <Button className="bg-medical-blue hover:bg-blue-700 text-white w-full">
-              Book Appointment
+              Agenda una cita
             </Button>
           </div>
         </div>

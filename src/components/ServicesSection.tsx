@@ -1,47 +1,46 @@
-
 import { Heart, Stethoscope, Calendar, Clock, BriefcaseMedical, User } from "lucide-react";
 
 const serviceItems = [
   {
     icon: <Stethoscope className="h-8 w-8 text-white" />,
-    title: "General Health Check",
-    description: "Comprehensive health assessments to ensure overall wellbeing and early detection of potential issues."
+    title: "Valoración General",
+    description: "Evaluaciones médicas integrales para diagnosticar y orientar sobre el tratamiento quirúrgico adecuado."
   },
   {
     icon: <Heart className="h-8 w-8 text-white" />,
-    title: "Cardiology Services",
-    description: "Expert heart care from routine check-ups to advanced treatments for various cardiovascular conditions."
+    title: "Cirugía de Urgencias",
+    description: "Atención inmediata y profesional ante situaciones quirúrgicas urgentes, con enfoque humano y resolutivo."
   },
   {
     icon: <BriefcaseMedical className="h-8 w-8 text-white" />,
-    title: "Emergency Care",
-    description: "24/7 emergency medical services with quick response times and experienced medical professionals."
+    title: "Cirugías Ambulatorias",
+    description: "Procedimientos quirúrgicos seguros que no requieren hospitalización prolongada, realizados con precisión."
   },
   {
     icon: <Calendar className="h-8 w-8 text-white" />,
-    title: "Specialist Consultations",
-    description: "Access to a wide range of medical specialists for focused and specialized care tailored to your needs."
+    title: "Consulta Especializada",
+    description: "Atención personalizada para pacientes que requieren valoración quirúrgica por cirujana general egresada de la UDEM."
   },
   {
     icon: <User className="h-8 w-8 text-white" />,
-    title: "Pediatric Care",
-    description: "Compassionate and comprehensive healthcare services designed specifically for children and adolescents."
+    title: "Atención en Clínica 4",
+    description: "Servicios quirúrgicos diarios en la Clínica 4 de Guadalupe, con experiencia en casos diversos y complejos."
   },
   {
     icon: <Clock className="h-8 w-8 text-white" />,
-    title: "Telemedicine",
-    description: "Virtual consultations with our medical professionals from the comfort of your home."
+    title: "Consultas Virtuales",
+    description: "Valoraciones pre y postoperatorias desde casa, con la misma calidad y dedicación que una consulta presencial."
   },
 ];
 
 const ServicesSection = () => {
   return (
-    <section id="services" className="section-padding bg-medical-gray">
+    <section id="servicios" className="section-padding bg-medical-gray">
       <div className="container mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">Our Medical Services</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-4">Servicios Médicos</h2>
           <p className="text-gray-600 max-w-2xl mx-auto">
-            We provide a wide range of medical services to meet all your healthcare needs with the highest standard of care and professionalism.
+            Atención quirúrgica de calidad, profesionalismo y vocación, respaldada por años de experiencia en cirugía general y una sólida formación académica.
           </p>
         </div>
 

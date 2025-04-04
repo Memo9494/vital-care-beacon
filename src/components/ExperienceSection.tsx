@@ -1,4 +1,3 @@
-
 import { Award, BookOpen, GraduationCap, Heart } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 
@@ -9,7 +8,7 @@ const ExperienceSection = () => {
         <div className="text-center mb-16 fade-in">
           <h2 className="text-3xl md:text-4xl font-bold text-medical-dark mb-4">Formación Profesional</h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Trayectoria académica y profesional de la Dra. Andrea Cepeda, garantizando la más alta calidad en atención quirúrgica.
+            La Dra. Andrea Cepeda ha forjado una sólida trayectoria académica y médica, consolidándose como una profesional comprometida con la salud quirúrgica de sus pacientes.
           </p>
         </div>
         
@@ -24,23 +23,19 @@ const ExperienceSection = () => {
                   <h3 className="text-xl font-semibold text-medical-dark mb-2">Educación</h3>
                   <ul className="space-y-4">
                     <li>
-                      <p className="font-medium">Doctorado en Medicina</p>
-                      <p className="text-gray-600">Universidad Autónoma de Nuevo León, 2005-2009</p>
+                      <p className="font-medium">Licenciatura en Médico Cirujano y Partero</p>
+                      <p className="text-gray-600">Universidad de Monterrey (UDEM), 2017 - 2023</p>
                     </li>
                     <li>
-                      <p className="font-medium">Especialidad en Cirugía General</p>
-                      <p className="text-gray-600">Hospital Universitario Dr. José E. González, 2009-2013</p>
-                    </li>
-                    <li>
-                      <p className="font-medium">Subespecialidad en Cirugía Mínimamente Invasiva</p>
-                      <p className="text-gray-600">Centro Médico Nacional Siglo XXI, 2013-2015</p>
+                      <p className="font-medium">Residente de Cirugía General</p>
+                      <p className="text-gray-600">IMSS Clínica 4, Guadalupe, N.L. — Desde 2025</p>
                     </li>
                   </ul>
                 </div>
               </div>
             </CardContent>
           </Card>
-          
+
           <Card className="bg-white shadow-lg fade-in">
             <CardContent className="p-6">
               <div className="flex items-start gap-4">
@@ -48,19 +43,15 @@ const ExperienceSection = () => {
                   <Award className="text-medical-blue w-7 h-7" />
                 </div>
                 <div>
-                  <h3 className="text-xl font-semibold text-medical-dark mb-2">Certificaciones</h3>
+                  <h3 className="text-xl font-semibold text-medical-dark mb-2">Experiencia Clínica</h3>
                   <ul className="space-y-4">
                     <li>
-                      <p className="font-medium">Consejo Mexicano de Cirugía General</p>
-                      <p className="text-gray-600">Certificación vigente desde 2014</p>
+                      <p className="font-medium">Hospital Clínica Nova</p>
+                      <p className="text-gray-600">Médico pasante, atención integral a pacientes</p>
                     </li>
                     <li>
-                      <p className="font-medium">American College of Surgeons (ACS)</p>
-                      <p className="text-gray-600">Miembro Internacional, 2016</p>
-                    </li>
-                    <li>
-                      <p className="font-medium">Sociedad Mexicana de Cirugía Endoscópica</p>
-                      <p className="text-gray-600">Miembro activo desde 2015</p>
+                      <p className="font-medium">IMSS Clínica 4</p>
+                      <p className="text-gray-600">Residente de cirugía general con experiencia diaria en procedimientos quirúrgicos</p>
                     </li>
                   </ul>
                 </div>
@@ -68,7 +59,7 @@ const ExperienceSection = () => {
             </CardContent>
           </Card>
         </div>
-        
+
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           <Card className="bg-white shadow-lg fade-in">
             <CardContent className="p-6">
@@ -80,23 +71,23 @@ const ExperienceSection = () => {
                   <h3 className="text-xl font-semibold text-medical-dark mb-2">Publicaciones</h3>
                   <ul className="space-y-4">
                     <li>
-                      <p className="font-medium">Revista Mexicana de Cirugía</p>
-                      <p className="text-gray-600">"Avances en técnicas laparoscópicas para cirugía de vesícula", 2018</p>
+                      <p className="font-medium">Frontiers in Immunology</p>
+                      <p className="text-gray-600">Efectividad de combinaciones de refuerzo contra SARS-CoV-2, 2024</p>
                     </li>
                     <li>
-                      <p className="font-medium">International Journal of Surgery</p>
-                      <p className="text-gray-600">"Comparative study of minimally invasive techniques in abdominal procedures", 2020</p>
+                      <p className="font-medium">Journal of Diabetes & Metabolic Disorders</p>
+                      <p className="text-gray-600">Reclasificación del riesgo cardiovascular con Sudoscan®, 2025</p>
                     </li>
                     <li>
-                      <p className="font-medium">Capítulo de libro</p>
-                      <p className="text-gray-600">"Manual de Cirugía Laparoscópica Moderna", Editorial Médica Panamericana, 2021</p>
+                      <p className="font-medium">Archives of Public Health</p>
+                      <p className="text-gray-600">Impacto de sistemas integrales en longevidad de adultos mayores, 2024</p>
                     </li>
                   </ul>
                 </div>
               </div>
             </CardContent>
           </Card>
-          
+
           <Card className="bg-white shadow-lg fade-in">
             <CardContent className="p-6">
               <div className="flex items-start gap-4">
@@ -107,16 +98,12 @@ const ExperienceSection = () => {
                   <h3 className="text-xl font-semibold text-medical-dark mb-2">Reconocimientos</h3>
                   <ul className="space-y-4">
                     <li>
-                      <p className="font-medium">Premio a la Excelencia Médica</p>
-                      <p className="text-gray-600">Colegio de Cirujanos de Nuevo León, 2019</p>
+                      <p className="font-medium">Cita en múltiples revistas científicas</p>
+                      <p className="text-gray-600">Contribuciones en investigación sobre diabetes y COVID-19</p>
                     </li>
                     <li>
-                      <p className="font-medium">Reconocimiento a la Innovación Quirúrgica</p>
-                      <p className="text-gray-600">Hospital San José Tec de Monterrey, 2021</p>
-                    </li>
-                    <li>
-                      <p className="font-medium">Medalla al Mérito Profesional</p>
-                      <p className="text-gray-600">Secretaría de Salud de Nuevo León, 2022</p>
+                      <p className="font-medium">Reconocida por su participación en estudios multicéntricos</p>
+                      <p className="text-gray-600">Incluida en ResearchGate con publicaciones activas</p>
                     </li>
                   </ul>
                 </div>
