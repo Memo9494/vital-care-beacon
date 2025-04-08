@@ -14,9 +14,9 @@ const ContactSection = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-start">
+        <div className="grid grid-cols-1 lg:grid-cols-1 gap-8 items-start">
           <div className="bg-medical-blue text-white p-8 rounded-xl shadow-lg">
-            <h3 className="text-2xl font-bold mb-6">Ponte en contacto</h3>
+            <h3 className="text-2xl font-bold mb-6">Dr. Andrea Cepeda</h3>
             
             <div className="space-y-6">
               <div className="flex items-start">
@@ -75,7 +75,7 @@ const ContactSection = () => {
             </div>
           </div>
           
-          <div className="bg-white p-8 rounded-xl shadow-lg border border-gray-200">
+          {/* <div className="bg-white p-8 rounded-xl shadow-lg border border-gray-200">
             <h3 className="text-2xl font-bold mb-6">Envíanos un mensaje</h3>
             
             <form className="space-y-4">
@@ -97,34 +97,34 @@ const ContactSection = () => {
                     className="w-full"
                   />
                 </div>
-              </div>
+              </div> */}
               
-              <div>
+              {/* <div>
                 <label htmlFor="subject" className="block text-sm font-medium text-gray-700 mb-1">Asunto</label>
                 <Input 
                   id="subject"
                   placeholder="Asunto"
                   className="w-full"
                 />
-              </div>
+              </div> */}
               
-              <div>
+              {/* <div>
                 <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-1">Mensaje</label>
                 <Textarea 
                   id="message"
                   placeholder="Escribe tu mensaje..."
                   className="w-full min-h-[150px]"
                 />
-              </div>
+              </div> */}
               
-              <Button 
+              {/* <Button 
                 type="submit"
                 className="w-full bg-medical-blue hover:bg-blue-700 text-white"
               >
                 Enviar mensaje
-              </Button>
-            </form>
-          </div>
+              </Button> */}
+            {/* </form> */}
+          {/* </div> */}
         </div>
       </div>
     </section>

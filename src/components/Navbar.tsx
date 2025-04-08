@@ -2,6 +2,8 @@
 import { useState, useEffect } from 'react';
 import { Button } from "@/components/ui/button";
 import { Heart } from "lucide-react";
+import { Syringe } from "lucide-react";
+
 
 const Navbar = () => {
   const [scrolled, setScrolled] = useState(false);
@@ -30,16 +32,16 @@ const Navbar = () => {
       <div className="container mx-auto px-4 flex justify-between items-center">
         {/* Logo */}
         <div className="flex items-center">
-          <Heart className="h-6 w-6 text-medical-blue mr-2" />
-          <span className="text-xl font-bold text-medical-blue">Cuidado</span>
+          <Syringe className="h-6 w-6 text-medical-blue mr-2" />
+          <span className="text-xl font-bold text-medical-blue">Dr. Andrea Cepeda</span>
         </div>
 
         {/* Desktop Navigation */}
         <nav className="hidden md:flex space-x-8">
-          <a href="#home" className="text-gray-800 hover:text-medical-blue font-medium">Inicio</a>
-          <a href="#services" className="text-gray-800 hover:text-medical-blue font-medium">Servicios</a>
-          <a href="#testimonials" className="text-gray-800 hover:text-medical-blue font-medium">Testimonios</a>
-          <a href="#contact" className="text-gray-800 hover:text-medical-blue font-medium">Contacto</a>
+          <a href="#inicio" className="text-gray-800 hover:text-medical-blue font-medium">Inicio</a>
+          <a href="#servicios" className="text-gray-800 hover:text-medical-blue font-medium">Servicios</a>
+          <a href="#testimonios" className="text-gray-800 hover:text-medical-blue font-medium">Testimonios</a>
+          <a href="#contacto" className="text-gray-800 hover:text-medical-blue font-medium">Contacto</a>
         </nav>
 
         {/* Appointment button */}
@@ -74,10 +76,10 @@ const Navbar = () => {
       {mobileMenuOpen && (
         <div className="md:hidden bg-white shadow-lg">
           <div className="container mx-auto px-4 py-4 flex flex-col space-y-4">
-            <a href="#home" className="text-gray-800 hover:text-medical-blue font-medium">Inicio</a>
-            <a href="#services" className="text-gray-800 hover:text-medical-blue font-medium">Servicios</a>
-            <a href="#testimonials" className="text-gray-800 hover:text-medical-blue font-medium">Testimonios</a>
-            <a href="#contact" className="text-gray-800 hover:text-medical-blue font-medium">Contacto</a>
+            <a href="#inicio" className="text-gray-800 hover:text-medical-blue font-medium">Inicio</a>
+            <a href="#servicios" className="text-gray-800 hover:text-medical-blue font-medium">Servicios</a>
+            <a href="#testimonios" className="text-gray-800 hover:text-medical-blue font-medium">Testimonios</a>
+            <a href="#contacto" className="text-gray-800 hover:text-medical-blue font-medium">Contacto</a>
             <Button className="bg-medical-blue hover:bg-blue-700 text-white w-full">
               Agenda una cita
             </Button>
